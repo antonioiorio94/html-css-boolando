@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prima-riga{
+    margin-top: 20px;
+}
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.primo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+    margin-right: 2%;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.imgalt1 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+  
+.productphoto1:hover .img1{
+    display: none;
+}
+
+
+
+.hearts {
+    position: absolute;
+    top: 30px;
+    left: 96%;
+    background-color: antiquewhite;
+    background-size: cover;
+    padding: 5px;
+    width: 20px;
+}
+
+.hearts:hover{
+    color: tomato;
+
+}
+.sconto{
+    background-color: tomato;
+    color: antiquewhite;
+    position: absolute;
+    bottom: 90px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.etichetta{
+    background-color: rgb(67, 114, 67);
+    color: antiquewhite;
+    position: absolute;
+    bottom: 90px;
+    padding: 5px;
+    font-weight: bolder;
+    margin-left: 55px;
+}
+
+.info-product{
+    margin-top: 10px;
+}
+
+.price{
+    color: tomato;
+    display: inline;
+    font-weight: bold;
+}
+
+span{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.secondo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+    margin-right: 2%;
+}
+
+
+.product-img-2{
+    background-image: url(../img/2.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-2:hover{
+    background-image: url(../img/2b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+.terzo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+}
+
+.product-img-3{
+    background-image: url(../img/3.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-3:hover{
+    background-image: url(../img/3b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+.seconda-riga{
+    margin:20px 0px 20px 0px;
+}
+
+
+
+.product-img-4{
+    background-image: url(../img/4.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-4:hover{
+    background-image: url(../img/4b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+
+
+.product-img-5{
+    background-image: url(../img/5.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-5:hover{
+    background-image: url(../img/5b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+
+.product-img-6{
+    background-image: url(../img/6.webp);
+    width: 100%;
+    height:920px;
+    background-position: center;
+}
+
+.product-img-6:hover{
+    background-image: url(../img/6b.webp);
+    width: 100%;
+    height: 920px;
+
+}
