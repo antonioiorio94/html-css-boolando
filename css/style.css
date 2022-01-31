@@ -32,6 +32,12 @@ body{
     width: 100%;
 }
 
+.nr1:hover{
+    background-image: url(../img/1b.webp);
+    width: 100%;
+}
+
+
 .hearts {
     position: absolute;
     top: 30px;
@@ -42,6 +48,10 @@ body{
     width: 20px;
 }
 
+.hearts:hover{
+    color: tomato;
+
+}
 .sconto{
     background-color: tomato;
     color: antiquewhite;
@@ -67,7 +77,7 @@ body{
     font-weight: bold;
 }
 
-.secondo-articolo p:last-child{
+span{
     text-decoration: line-through;
     display: inline-block;
 }
