@@ -28,14 +28,20 @@ body{
     margin-right: 2%;
 }
 
-.product-img{
+.product-img-1{
+    background-image: url(../img/1.webp);
     width: 100%;
+    height: 920px;
+    background-position: center;
 }
 
-.nr1:hover{
+.product-img-1:hover{
     background-image: url(../img/1b.webp);
     width: 100%;
+    height: 920px;
+
 }
+
 
 
 .hearts {
@@ -71,6 +77,10 @@ body{
     margin-left: 55px;
 }
 
+.info-product{
+    margin-top: 10px;
+}
+
 .price{
     color: tomato;
     display: inline;
@@ -89,8 +99,88 @@ span{
     margin-right: 2%;
 }
 
+
+.product-img-2{
+    background-image: url(../img/2.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-2:hover{
+    background-image: url(../img/2b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
 .terzo-articolo{
     float: left;
     position: relative;
     width: 31%;
+}
+
+.product-img-3{
+    background-image: url(../img/3.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-3:hover{
+    background-image: url(../img/3b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+.seconda-riga{
+    margin:20px 0px 20px 0px;
+}
+
+
+
+.product-img-4{
+    background-image: url(../img/4.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-4:hover{
+    background-image: url(../img/4b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+
+
+.product-img-5{
+    background-image: url(../img/5.webp);
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.product-img-5:hover{
+    background-image: url(../img/5b.webp);
+    width: 100%;
+    height: 920px;
+
+}
+
+
+.product-img-6{
+    background-image: url(../img/6.webp);
+    width: 100%;
+    height:920px;
+    background-position: center;
+}
+
+.product-img-6:hover{
+    background-image: url(../img/6b.webp);
+    width: 100%;
+    height: 920px;
+
 }
