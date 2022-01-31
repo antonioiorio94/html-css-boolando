@@ -3,3 +3,84 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prima-riga{
+    margin-top: 20px;
+}
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.primo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+    margin-right: 2%;
+}
+
+.product-img{
+    width: 100%;
+}
+
+.hearts {
+    position: absolute;
+    top: 30px;
+    left: 96%;
+    background-color: antiquewhite;
+    background-size: cover;
+    padding: 5px;
+    width: 20px;
+}
+
+.sconto{
+    background-color: tomato;
+    color: antiquewhite;
+    position: absolute;
+    bottom: 90px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.etichetta{
+    background-color: rgb(67, 114, 67);
+    color: antiquewhite;
+    position: absolute;
+    bottom: 90px;
+    padding: 5px;
+    font-weight: bolder;
+    margin-left: 55px;
+}
+
+.price{
+    color: tomato;
+    display: inline;
+    font-weight: bold;
+}
+
+.secondo-articolo p:last-child{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.secondo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+    margin-right: 2%;
+}
+
+.terzo-articolo{
+    float: left;
+    position: relative;
+    width: 31%;
+}
